@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  VideoAndAudio
+//
+//  Created by mac on 2018/9/14.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth  [[UIScreen mainScreen] bounds].size.width
+#define autoScaleX    (ScreenWidth/375.0)
+#define autoScaleY    (ScreenHeight/667.0)
+#define autoWith(x)    (ceilf((x)* autoScaleX))
+#define autoColor(x,y,z,m)  [UIColor colorWithRed:x/255.0 green:y/255.0 blue:z/255.0 alpha:m]
+#define IPhoneX   ([UIScreen mainScreen].bounds.size.width == 375.0f && [UIScreen mainScreen].bounds.size.height == 812.0f)
+#define PCBTabBar_Height  (IPhoneX ? 83.f : 49.f)
+#define PCBNavBar_Height  (IPhoneX ? 88.f : 64.f)
+#define PCStatus_Height   (IPhoneX ? 44.f : 20.f)
+#define PCNOBar_Height     (IPhoneX ? 34.f : 0.f)
+#define UrlA  @"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+#define UrlB  @"https://media.w3.org/2010/05/sintel/trailer.mp4"
+#define UrlC  @"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

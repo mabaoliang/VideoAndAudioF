@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		04774FCB214B423300621395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04774FCA214B423300621395 /* AppDelegate.m */; };
-		04774FCE214B423300621395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04774FCD214B423300621395 /* ViewController.m */; };
 		04774FD1214B423300621395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04774FCF214B423300621395 /* Main.storyboard */; };
 		04774FD3214B423E00621395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04774FD2214B423E00621395 /* Assets.xcassets */; };
 		04774FD6214B423E00621395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04774FD4214B423E00621395 /* LaunchScreen.storyboard */; };
 		04774FD9214B423E00621395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04774FD8214B423E00621395 /* main.m */; };
 		04774FE3214B423F00621395 /* VideoAndAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04774FE2214B423F00621395 /* VideoAndAudioTests.m */; };
 		04774FEE214B423F00621395 /* VideoAndAudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04774FED214B423F00621395 /* VideoAndAudioUITests.m */; };
+		04774FFD214B433000621395 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04774FFC214B433000621395 /* TableViewController.m */; };
+		04775001214B45FF00621395 /* VideoMPMoviewPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04775000214B45FF00621395 /* VideoMPMoviewPlayerController.m */; };
+		04775004214B460C00621395 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04775003214B460C00621395 /* AudioViewController.m */; };
+		04775006214B4C2D00621395 /* videoA.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04775005214B4C2D00621395 /* videoA.mp4 */; };
+		04775009214B4CFB00621395 /* VideoMPMoviewPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04775008214B4CFB00621395 /* VideoMPMoviewPlayerViewController.m */; };
+		0477500C214B4F7200621395 /* VideoAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477500B214B4F7200621395 /* VideoAVPlayerViewController.m */; };
+		0477500F214B557D00621395 /* VideoAVPlayerTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477500E214B557D00621395 /* VideoAVPlayerTViewController.m */; };
+		04775013214B628000621395 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04775010214B627F00621395 /* A.mp3 */; };
+		04775014214B628000621395 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04775011214B627F00621395 /* B.mp3 */; };
+		04775015214B628000621395 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04775012214B628000621395 /* C.mp3 */; };
+		04775018214B674200621395 /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04775017214B674200621395 /* RecordingViewController.m */; };
+		0477501B214B67D800621395 /* RecordSPAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477501A214B67D800621395 /* RecordSPAViewController.m */; };
+		0477501E214B9A9B00621395 /* ReCordSPBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477501D214B9A9B00621395 /* ReCordSPBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +50,6 @@
 		04774FC6214B423200621395 /* VideoAndAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoAndAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04774FC9214B423300621395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04774FCA214B423300621395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04774FCC214B423300621395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04774FCD214B423300621395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04774FD0214B423300621395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04774FD2214B423E00621395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04774FD5214B423E00621395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,29 @@
 		04774FE9214B423F00621395 /* VideoAndAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoAndAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04774FED214B423F00621395 /* VideoAndAudioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoAndAudioUITests.m; sourceTree = "<group>"; };
 		04774FEF214B423F00621395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04774FFB214B433000621395 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		04774FFC214B433000621395 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		04774FFE214B447A00621395 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04774FFF214B45FF00621395 /* VideoMPMoviewPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoMPMoviewPlayerController.h; sourceTree = "<group>"; };
+		04775000214B45FF00621395 /* VideoMPMoviewPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoMPMoviewPlayerController.m; sourceTree = "<group>"; };
+		04775002214B460C00621395 /* AudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
+		04775003214B460C00621395 /* AudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
+		04775005214B4C2D00621395 /* videoA.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoA.mp4; sourceTree = "<group>"; };
+		04775007214B4CFB00621395 /* VideoMPMoviewPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoMPMoviewPlayerViewController.h; sourceTree = "<group>"; };
+		04775008214B4CFB00621395 /* VideoMPMoviewPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoMPMoviewPlayerViewController.m; sourceTree = "<group>"; };
+		0477500A214B4F7200621395 /* VideoAVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAVPlayerViewController.h; sourceTree = "<group>"; };
+		0477500B214B4F7200621395 /* VideoAVPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoAVPlayerViewController.m; sourceTree = "<group>"; };
+		0477500D214B557D00621395 /* VideoAVPlayerTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoAVPlayerTViewController.h; sourceTree = "<group>"; };
+		0477500E214B557D00621395 /* VideoAVPlayerTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoAVPlayerTViewController.m; sourceTree = "<group>"; };
+		04775010214B627F00621395 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		04775011214B627F00621395 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		04775012214B628000621395 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
+		04775016214B674200621395 /* RecordingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		04775017214B674200621395 /* RecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
+		04775019214B67D800621395 /* RecordSPAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordSPAViewController.h; sourceTree = "<group>"; };
+		0477501A214B67D800621395 /* RecordSPAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordSPAViewController.m; sourceTree = "<group>"; };
+		0477501C214B9A9B00621395 /* ReCordSPBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReCordSPBViewController.h; sourceTree = "<group>"; };
+		0477501D214B9A9B00621395 /* ReCordSPBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReCordSPBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +136,29 @@
 			children = (
 				04774FC9214B423300621395 /* AppDelegate.h */,
 				04774FCA214B423300621395 /* AppDelegate.m */,
-				04774FCC214B423300621395 /* ViewController.h */,
-				04774FCD214B423300621395 /* ViewController.m */,
+				04774FFB214B433000621395 /* TableViewController.h */,
+				04774FFC214B433000621395 /* TableViewController.m */,
+				04774FFF214B45FF00621395 /* VideoMPMoviewPlayerController.h */,
+				04775000214B45FF00621395 /* VideoMPMoviewPlayerController.m */,
+				04775007214B4CFB00621395 /* VideoMPMoviewPlayerViewController.h */,
+				04775008214B4CFB00621395 /* VideoMPMoviewPlayerViewController.m */,
+				0477500A214B4F7200621395 /* VideoAVPlayerViewController.h */,
+				0477500B214B4F7200621395 /* VideoAVPlayerViewController.m */,
+				0477500D214B557D00621395 /* VideoAVPlayerTViewController.h */,
+				0477500E214B557D00621395 /* VideoAVPlayerTViewController.m */,
+				04775002214B460C00621395 /* AudioViewController.h */,
+				04775003214B460C00621395 /* AudioViewController.m */,
+				04775016214B674200621395 /* RecordingViewController.h */,
+				04775017214B674200621395 /* RecordingViewController.m */,
+				04775019214B67D800621395 /* RecordSPAViewController.h */,
+				0477501A214B67D800621395 /* RecordSPAViewController.m */,
+				0477501C214B9A9B00621395 /* ReCordSPBViewController.h */,
+				0477501D214B9A9B00621395 /* ReCordSPBViewController.m */,
+				04774FFE214B447A00621395 /* PrefixHeader.pch */,
+				04775005214B4C2D00621395 /* videoA.mp4 */,
+				04775010214B627F00621395 /* A.mp3 */,
+				04775011214B627F00621395 /* B.mp3 */,
+				04775012214B628000621395 /* C.mp3 */,
 				04774FCF214B423300621395 /* Main.storyboard */,
 				04774FD2214B423E00621395 /* Assets.xcassets */,
 				04774FD4214B423E00621395 /* LaunchScreen.storyboard */,
@@ -236,8 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04774FD6214B423E00621395 /* LaunchScreen.storyboard in Resources */,
+				04775013214B628000621395 /* A.mp3 in Resources */,
+				04775006214B4C2D00621395 /* videoA.mp4 in Resources */,
 				04774FD3214B423E00621395 /* Assets.xcassets in Resources */,
 				04774FD1214B423300621395 /* Main.storyboard in Resources */,
+				04775014214B628000621395 /* B.mp3 in Resources */,
+				04775015214B628000621395 /* C.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +320,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04774FCE214B423300621395 /* ViewController.m in Sources */,
+				04775004214B460C00621395 /* AudioViewController.m in Sources */,
+				0477500C214B4F7200621395 /* VideoAVPlayerViewController.m in Sources */,
+				0477501B214B67D800621395 /* RecordSPAViewController.m in Sources */,
 				04774FD9214B423E00621395 /* main.m in Sources */,
+				04774FFD214B433000621395 /* TableViewController.m in Sources */,
+				04775009214B4CFB00621395 /* VideoMPMoviewPlayerViewController.m in Sources */,
+				04775001214B45FF00621395 /* VideoMPMoviewPlayerController.m in Sources */,
 				04774FCB214B423300621395 /* AppDelegate.m in Sources */,
+				0477500F214B557D00621395 /* VideoAVPlayerTViewController.m in Sources */,
+				0477501E214B9A9B00621395 /* ReCordSPBViewController.m in Sources */,
+				04775018214B674200621395 /* RecordingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +501,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PY29H7ZW7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoAndAudio/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoAndAudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +521,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PY29H7ZW7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoAndAudio/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoAndAudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
